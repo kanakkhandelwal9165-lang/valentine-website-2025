@@ -1,3 +1,4 @@
+js
 // Initialize configuration
 const config = window.VALENTINE_CONFIG;
 
@@ -57,7 +58,6 @@ document.title = config.pageTitle;
 window.addEventListener('DOMContentLoaded', () => {
     // Validate configuration first
     validateConfig();
-
     // Set texts from config
    document.getElementById('valentineTitle').textContent = "Om Let's settle this 🤭";
     
