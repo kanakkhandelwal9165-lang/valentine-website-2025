@@ -86,25 +86,15 @@ body {
 }
 
 .secret-answer {
-    position: relative;
-    margin-top: 15px;
-    opacity: 0.7;
-    text-align: center;
-    opacity: 0.6;
-    transition: opacity 0.3s;
-    z-index: 2;
-    animation: subtle-hint 2s infinite alternate;
-    animation-delay: 5s;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.4s ease;
+  margin-top: 10px;
 }
 
-.secret-answer .cute-btn {
-    font-size: 0.8rem;
-    padding: 5px 10px;
-}
-
-.secret-answer:hover {
-    opacity: 1;
-    animation: none;
+.container:hover .secret-answer {
+  opacity: 0.7;
+  transform: translateY(0);
 }
 
 .love-meter {
