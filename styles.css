@@ -19,14 +19,12 @@ body {
 }
 
 body {
-    margin: 0;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(135deg, var(--background-color-1), var(--background-color-2));
-    font-family: Arial, sans-serif;
-    overflow-x: hidden;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
 .container {
@@ -174,7 +172,7 @@ body {
 }
 
 #extraLove {
-    color: #ff6b6b;
+    color: #a9445b;
     font-weight: bold;
     animation: bounce 0.5s infinite alternate;
     display: block;
@@ -195,7 +193,7 @@ body {
 
 #loveValue {
     font-weight: bold;
-    color: #ff4757;
+    color: #444444;
     font-size: 1.3em;
     transition: all 0.3s ease;
 }
@@ -239,7 +237,7 @@ h1, h2 {
 }
 
 h1 {
-    color: #ff6b6b;
+    color: #333333;
     margin-bottom: 2rem;
 }
 
@@ -248,8 +246,8 @@ h2 {
 }
 
 .super-love {
-    font-size: 1.2rem;
-    color: #444;
+    font-size: 1rem;
+    color: #666;
     text-shadow: none;
     font-weight: bold;
     transform: scale(1.2);
@@ -259,13 +257,9 @@ h2 {
 
 
 .celebration-text {
-    font-size: 2rem;
-    color: #222;
-    text-shadow: none;
-    font-weight: bold;
-    margin: 30px 0;
-    animation: bounce var(--bounce-speed) infinite alternate;
-    text-shadow: 2px 2px 4px rgba(255, 71, 87, 0.3);
+  font-size: 1.6rem;
+  font-weight: 500;
+}
 }
 
 @keyframes subtle-hint {
