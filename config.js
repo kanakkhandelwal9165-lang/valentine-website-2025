@@ -9,7 +9,7 @@ const CONFIG = {
 
     // The title that appears in the browser tab
     // You can use emojis!
-    pageTitle: "Will You Be My Valentine? ❤️",
+    pageTitle: "Timepaas for valentine okay!❤️",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
@@ -22,18 +22,18 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            text: "So… am I your favourite person or what?🙂‍↔️",                                    // First interaction
+            yesBtn: "Obviously",                                             // Text for "Yes" button
+            noBtn: "Not sure",                                               // Text for "No" button
+            secretAnswer: "Bold of you to hesitate 👀"           // Secret hover message
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
-            startText: "This much!",                                   // Text before the percentage
+            text: "How obsessed you are with me😉?",                          // For the love meter
+            startText: "jate raho na na not here",                                   // Text before the percentage
             nextBtn: "Next ❤️"                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2025? 🌹", // The big question!
+            text: "you should ask this sharam karo i am asking toh valentine pakka?🌹", // The big question!
             yesBtn: "Yes!",                                             // Text for "Yes" button
             noBtn: "No"                                                 // Text for "No" button
         }
@@ -49,8 +49,8 @@ const CONFIG = {
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Consider this timepass please i am not this cheesy🤭🫢",
-        message: "You didn't had an option😛😂",
+        title: "You didn't had an option😛😂",
+        message: "You better appreciate my efforts properly samjhe!!😏",
         emojis: "😛🤭❤️👍🏻🫂🎉"  // These will bounce around
     },
 
