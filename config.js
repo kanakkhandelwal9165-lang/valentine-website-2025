@@ -8,7 +8,7 @@ const CONFIG = {
     valentineName: "Om",
 
     // The title that appears in the browser tab
-    // You can use emojis!💖🥹
+    // You can use emojis!
     pageTitle: "Will You Be My Valentine? ❤️",
 
     // Floating emojis that appear in the background
@@ -49,9 +49,9 @@ const CONFIG = {
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "You didn't had any option waise bhi!😛😘🫰🏻",
-        message: "Now ask me for valentine's date and get your gift and a big warm hug and a huge kiss!",
-        emojis: "❤️💖🥹❤️😘😛🫂"  // These will bounce around
+        title: "Consider this timepass please i am not this cheesy🤭🫢",
+        message: "You didn't had an option😛😂",
+        emojis: "😛🤭❤️👍🏻🫂🎉"  // These will bounce around
     },
 
     // Color scheme for the website
