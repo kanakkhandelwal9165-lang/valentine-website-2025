@@ -42,7 +42,7 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "I knew it!Isse niche tum karte toh phir hota kalesh😛",  // Shows when they go past 5000%
+        extreme: "Isse niche tum karte toh phir hota kalesh😛",  // Shows when they go past 5000%
         high: "Bas itna???😢😔",              // Shows when they go past 1000%
         normal: "! how dare you chose this?😒"                           // Shows when they go past 100%
     },
@@ -57,11 +57,11 @@ const CONFIG = {
     // Color scheme for the website
     // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
     colors: {
-        backgroundStart: "#ffafbd",      // Gradient start (try pastel colors for a soft look)
-        backgroundEnd: "#ffc3a0",        // Gradient end (should complement backgroundStart)
-        buttonBackground: "#ff6b6b",     // Button color (should stand out against the background)
-        buttonHover: "#ff8787",          // Button hover color (slightly lighter than buttonBackground)
-        textColor: "#ff4757"             // Text color (make sure it's readable!)
+        backgroundStart: "#000000"      // Gradient start (try pastel colors for a soft look)
+        backgroundEnd: "#1a1a1a",        // Gradient end (should complement backgroundStart)
+        buttonBackground: "#ff1a1a",     // Button color (should stand out against the background)
+        buttonHover: "#cc0000",          // Button hover color (slightly lighter than buttonBackground)
+        textColor: "#ffffff"             // Text color (make sure it's readable!)
     },
 
     // Animation settings
@@ -78,7 +78,7 @@ const CONFIG = {
     music: {
         enabled: true,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
-        musicUrl: "https://res.cloudinary.com/dncywqfpb/video/upload/v1738399057/music_qrhjvy.mp3", // Music streaming URL
+        musicUrl: "https://files.catbox.moe/733fd2.mp3", // Music streaming URL
         startText: "🎵 Play Music",        // Button text to start music
         stopText: "🔇 Stop Music",         // Button text to stop music
         volume: 0.5                        // Volume level (0.0 to 1.0)
